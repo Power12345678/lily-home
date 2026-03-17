@@ -1,0 +1,6 @@
+Game_name:新的游戏;
+Game_key:55f0d1dfb77f44;
+Title_img:image-8.png;
+Title_bgm:ending.mp3;
+Textbox_theme:imss;
+Default_Language:en;

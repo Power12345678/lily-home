@@ -1,0 +1,12 @@
+{
+  "name": "1",
+  "id": "4a664add-7f87-4fac-94d9-e1d02d51803e",
+  "webgal-version": "4.5.18",
+  "fonts": [
+    {
+      "font-family": "方正综艺",
+      "url": "assets/FangZhengXinZongYiJianTi-1.ttf",
+      "type": "truetype"
+    }
+  ]
+}

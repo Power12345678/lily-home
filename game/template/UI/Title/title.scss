@@ -1,0 +1,142 @@
+.TextBox_main {
+z-index: 3;
+position: absolute;
+right: 25px;
+min-height: 330px;
+max-height: 330px;
+bottom: 20px;
+left: 275px;
+background: transparent !important;
+border-radius: 0 !important;
+box-shadow: none !important;
+background-blend-mode: normal !important;
+color: #ffffff !important;
+font-weight: 800 !important;
+padding: 1em 50px 70px 50px;
+box-sizing: border-box;
+display: flex;
+flex-flow: column;
+align-items: flex-start;
+letter-spacing: 0.01em;
+transition: left 0.33s;
+font-family: Arial, Helvetica, sans-serif !important;
+font-style: normal !important;
+}
+
+.TextBox_main_miniavatarOff {
+left: 25px;
+}
+
+.TextBox_Background {
+display: none !important;
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+.TextBox_textElement_start {
+position: relative;
+animation: TextDelayShow 1000ms ease-out forwards;
+opacity: 0;
+}
+
+.TextBox_textElement_Settled {
+position: relative;
+opacity: 1;
+}
+
+.zhanwei {
+color: transparent !important;
+white-space: nowrap;
+}
+
+.outer {
+position: absolute;
+white-space: nowrap;
+left: 0;
+top: 0;
+background: none !important;
+background-image: none !important;
+background-clip: initial !important;
+-webkit-background-clip: initial !important;
+color: #ffffff !important;
+z-index: 2;
+-webkit-text-stroke: 0 !important;
+text-shadow:
+    1px 0 0 rgba(0, 0, 0, 1),
+   -1px 0 0 rgba(0, 0, 0, 1),
+    0 1px 0 rgba(0, 0, 0, 1),
+    0 -1px 0 rgba(0, 0, 0, 1),
+    1px 1px 0 rgba(0, 0, 0, 0.95),
+   -1px 1px 0 rgba(0, 0, 0, 0.95),
+    1px -1px 0 rgba(0, 0, 0, 0.95),
+   -1px -1px 0 rgba(0, 0, 0, 0.95),
+    0 2px 3px rgba(0, 0, 0, 0.35) !important;
+}
+
+.inner {
+display: none !important;
+}
+
+.innerName {
+display: none !important;
+}
+
+.miniAvatarImg {
+display: none !important;
+}
+
+.text {
+overflow: hidden;
+color: #ffffff !important;
+-webkit-text-stroke: 0 !important;
+text-shadow:
+    1px 0 0 rgba(0, 0, 0, 1),
+   -1px 0 0 rgba(0, 0, 0, 1),
+    0 1px 0 rgba(0, 0, 0, 1),
+    0 -1px 0 rgba(0, 0, 0, 1),
+    1px 1px 0 rgba(0, 0, 0, 0.95),
+   -1px 1px 0 rgba(0, 0, 0, 0.95),
+    1px -1px 0 rgba(0, 0, 0, 0.95),
+   -1px -1px 0 rgba(0, 0, 0, 0.95),
+    0 2px 3px rgba(0, 0, 0, 0.35) !important;
+}
+
+.Title_button {
+font-weight: bold;
+text-align: center;
+flex: 0 1 auto;
+cursor: pointer;
+padding: 1em 2em 1em 2em;
+margin: 20px 0;
+transition: all 0.33s;
+background: rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(5px);
+border-radius: 4px;
+transform: skewX(-10deg);
+background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+
+&:hover {
+text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+padding: 1em 6em 1em 3em;
+}
+}
+
+@keyframes showSoftly {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes TextDelayShow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

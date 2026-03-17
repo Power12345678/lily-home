@@ -1,0 +1,7 @@
+bgm:sad normal.mp3 -enter=10;
+changeBg:image-1 (99).png;
+:At 7:03 this morning, my phone dragged me awake. -1.wav -fontSize=small;
+:Not a normal notification sound. The soft kind. The overpolished kind. The kind that acts like it’s being considerate. Like someone gently knocks first, then goes, sorry about this, but I’m about to ruin your whole day. I groped around for my phone with my eyes still shut and nearly smacked it onto the floor. -2.wav -fontSize=small;
+:The room was exactly the same as always. Same busted window. The patch of mold in the corner still refusing to die. The heater spent all night clanking on and off like it was clocking in through its own death throes. Lovely. Another morning waking up in my bargain-bin London survival exhibit. -3.wav -fontSize=small;
+:I tapped it open. Inside was a whole slab of official nonsense, which basically boiled down to this: housing is scarce, the city needs to distribute social housing and low-rent renovated flats more fairly, so starting now, this platform will keep track of how you live, and use that as an important reference for future housing support. -4.wav -fontSize=small;
+:Sounds lovely. For a second there I almost thought they were about to hand me a key. I kept scrolling to see what exactly they planned to record.| -fontSize=small;
